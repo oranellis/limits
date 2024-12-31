@@ -1,0 +1,41 @@
+@copy @concurrent
+struct Person {
+    bool has_hat
+}
+
+@iterable @move
+enum Colour {
+    none red;
+    i32 green;
+    i8 blue;
+    f64 brightness_level;
+    Base person;
+}
+
+fn Colour getColour(Colour shades) {
+    mut u16 hue; // All variables and constants default to 0 or empty
+    mut i32 return_val = match Option<i32> shades {
+        (red) {
+            return 45;
+        }
+        (green:green_value) {
+            if (green_value > 0) {
+                
+            }
+            elif (green_value >= -10) {
+                
+            }
+            else {
+                
+            }
+        }
+        (blue) {
+            hue = 12;
+            return (blue + hue);
+        }
+        (else) { // The default value, matches all unassigned union members but is of type none
+            
+        };
+    }
+    }
+}
