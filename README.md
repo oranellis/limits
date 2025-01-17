@@ -1,6 +1,6 @@
 # Limits - A simple, performant, and memory safe language
 
-**This is currently a personal project and not intended for anyone elses eyes just yet.**
+**As I wrote this out I realised more that I just wanted rust so this is more just a collection of thoughts**
 
 The language was created out of a desire to take what I feel are some great features from other contemporary languages and blend them to create a language which is as simple as possible to reason about and develop, with good concepts that translate well from human to machine understanding. I will include some examples in this repository of implementations, however, examples may not be consistent and for now this will just be a space to test out syntax and concepts.
 
